@@ -1,0 +1,137 @@
+body {
+    font-family: sans-serif;
+    background-color: pink;
+}
+
+header {
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color:black;
+    align-items:center;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    transition:0.3s;
+
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+    
+}
+
+.nav-link {
+    font-size: 24px;
+    color:yellow;
+    text-decoration: none;
+    transition:0.3s;
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+    font-size: 36px;
+    margin-top: ;
+    margin-bottom: ;
+}
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0px;
+    justify-content:space-between;
+
+}
+
+article {
+    background-color: white;
+    padding:45px ;
+    width: 400px;
+    margin-bottom:40px ;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color:#3E2DA1;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    transition:0.3s;
+}
+
+footer {
+    background-color:#FFCA57;
+    padding:43px ;
+    gap:43px;
+}
+
+footer a {
+    margin-right: ;
+}
+
+footer p {
+    font-size: 24px;
+}
+header,nav,.info,footer{
+    display:flex;
+}
+h1::before{
+    background:url(https://i.pinimg.com/736x/cd/f7/3f/cdf73f2ee218ab8705f762623d9eeb9f.jpg);
+content:"";
+background-size:100%;
+width:100px;
+height:100px;
+display:inline-block;
+}
+h1::after{
+   background:url(https://i.pinimg.com/736x/cd/f7/3f/cdf73f2ee218ab8705f762623d9eeb9f.jpg);
+content:"";
+background-size:100%;
+width:100px;
+height:100px;
+display:inline-block;
+}
+.nav-link:hover{
+    color:orange;
+    font-size:40px;
+    transition:0.2s;
+
+}
+.button:hover{
+    color:white;
+    font-size:20px;
+    transition:0.2s;
+}
+.article-but:hover{
+    color:red;
+    font-size:30px;
+    transition:0.2s;
+}
+.promotion{
+    background-color:yellow;
+    border-top-left-radius: 90px;
+    border-bottom-left-radius:90px;
+    width:60px;
+    height:fit-content;
+    padding:20px;
+    position:fixed;
+    right:0;
+    top:20%;
+
+}
+
